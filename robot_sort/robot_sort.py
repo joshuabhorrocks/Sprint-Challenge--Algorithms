@@ -96,9 +96,8 @@ class SortingRobot:
         """
         Sort the robot's list.
         """
-
         self.set_light_on()
-
+        
         while self.light_is_on():
             self.swap_item()
 
@@ -117,7 +116,7 @@ class SortingRobot:
             self.swap_item()
             self.move_right()
 
-            if not self.can_move_right():
+            if self.can_move_right() == False:
                 self.set_light_off()
 
 
