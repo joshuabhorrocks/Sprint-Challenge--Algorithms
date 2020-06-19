@@ -9,8 +9,7 @@ b) Logarithmic, O(log n) Even with low inputs, the nested while loop within the 
 c) Linear, O(n). Steps in code increases linearly with the number of inputs.
 
 ## Exercise II
-
-establish building height of n
+Establish building height of n
 Start at middle floor and drop egg. If broken, move down one floor. If it doesn't break, move up one floor.
 
-runtime is linear
+(Binary search, with a runtime of O(n) )
