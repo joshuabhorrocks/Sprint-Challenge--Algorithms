@@ -2,14 +2,15 @@
 
 ## Exercise I
 
-a)
+a) Linear, O(n). Code contains a simple while loop that requires no additional runtime than quick, simple, math operations to exit the loop
 
+b) Logarithmic, O(log n) Even with low inputs, the nested while loop within the for loop adds additional checks which logarithmically extend the time it takes to complete the algorithim. 
 
-b)
-
-
-c)
+c) Linear, O(n). Steps in code increases linearly with the number of inputs.
 
 ## Exercise II
 
+establish building height of n
+Start at middle floor and drop egg. If broken, move down one floor. If it doesn't break, move up one floor.
 
+runtime is linear
